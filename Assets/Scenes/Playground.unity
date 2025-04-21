@@ -2618,6 +2618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seesaw
       objectReference: {fileID: 0}
+    - target: {fileID: 736265651895486139, guid: 7ee677e1bad3b1644a12db6b2649b683, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6081555566887585005, guid: 7ee677e1bad3b1644a12db6b2649b683, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.3
@@ -6320,7 +6324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6650199810314842004, guid: 3b7f2c753d435d647a80f1f047a113e3, type: 3}
       propertyPath: playOnAwake
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6650199810314842004, guid: 3b7f2c753d435d647a80f1f047a113e3, type: 3}
       propertyPath: simulationSpeed
