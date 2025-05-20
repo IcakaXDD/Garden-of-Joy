@@ -3,7 +3,17 @@ guid: 4545958e32d672a4c9657cb8cbaba325
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dingus
+    second: {fileID: 2100000, guid: b3d592925245e3f4288e980a364881c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whiskers
+    second: {fileID: 2100000, guid: 4ac4571fdc5907b45b1e83e2ffcfc32f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
