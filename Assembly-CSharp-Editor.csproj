@@ -556,6 +556,10 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.APIComparison.Framework">
+      <HintPath>Library\PackageCache\com.unity.package-validation-suite@536239bd7458\Lib\Editor\Unity.APIComparison.Framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -564,12 +568,12 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    <Reference Include="log4net">
+      <HintPath>Library\PackageCache\com.unity.package-validation-suite@536239bd7458\Lib\Editor\log4net.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\log4netPlastic.dll</HintPath>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
@@ -586,6 +590,10 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\log4netPlastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
@@ -1196,6 +1204,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.PackageValidationSuite.Editor.Extension">
+      <HintPath>Library\ScriptAssemblies\Unity.PackageValidationSuite.Editor.Extension.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -1272,6 +1284,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.PackageValidationSuite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PackageValidationSuite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1314,13 +1330,13 @@
       <Project>{67C1614F-D5DF-3A53-9084-E5F59A0605FF}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.StarterAssets.csproj">
-      <Project>{0E70125C-90DA-7E6E-5A5A-F0134D57C888}</Project>
-      <Name>Unity.StarterAssets</Name>
-    </ProjectReference>
     <ProjectReference Include="URPWizard.csproj">
       <Project>{973F2ADF-A758-0B58-BFBA-B36905222EE7}</Project>
       <Name>URPWizard</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.StarterAssets.csproj">
+      <Project>{0E70125C-90DA-7E6E-5A5A-F0134D57C888}</Project>
+      <Name>Unity.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.StarterAssets.Editor.csproj">
       <Project>{EC5AAEC4-0F0F-9F28-4F71-2FF1D037240C}</Project>
