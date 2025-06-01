@@ -11,6 +11,7 @@ public class ChargeSpinOnKey : MonoBehaviour
     private Rigidbody rb;
     private float currentSpeed = 0f;
     private bool isHoldingKey = false;
+    public AudioSource audio;
 
     void Start()
     {
@@ -31,6 +32,7 @@ public class ChargeSpinOnKey : MonoBehaviour
             // Increase spin speed up to max
             currentSpeed += acceleration * Time.fixedDeltaTime;
             currentSpeed = Mathf.Clamp(currentSpeed, 0f, maxSpeed);
+            audio.Play();
         }
         else
         {
